@@ -1,7 +1,8 @@
-## Installation
+## Requirements
 
-install docker
-install NPM
+docker
+
+NPM
 
 ## to start
 
