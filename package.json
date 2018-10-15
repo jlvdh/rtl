@@ -1,0 +1,28 @@
+{
+  "name": "videoland",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "source vars.env && docker-compose up",
+    "app": "knex migrate:latest && pm2-runtime start bin/www --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bookshelf": "^0.13.3",
+    "bookshelf-page": "^0.3.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "^4.16.4",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "knex": "^0.15.2",
+    "mongoose": "^5.3.3",
+    "morgan": "~1.9.0",
+    "pg": "^7.5.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}
