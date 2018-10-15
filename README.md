@@ -1,10 +1,11 @@
 ##Installation
 
->>>install docker
->>>install NPM
+install docker
+install NPM
 
-## to start
+##to start
 
->>npm start
+npm start
 
->>>query: localhost:3000/all?pageSize=7&page=3
+##query endpoint
+localhost:3000/all?pageSize=7&page=3
